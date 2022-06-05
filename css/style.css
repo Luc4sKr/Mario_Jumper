@@ -20,13 +20,13 @@ body {
 h1 {
     font-family: "super mario";
     color: #fcbcb0;
-    font-size: 200px;
+    font-size: 90px;
     text-align: center;
     background-color: #c84c0b;
     margin-top: 100px;
-    margin: 100px 100px auto 100px;
+    margin: 50px 100px 0px 100px;
     border: 10px solid black;
-    text-shadow: 0.1em 0.1em rgb(0, 0, 0)
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
 }
 
 .game-board {
@@ -36,7 +36,7 @@ h1 {
     border-left: 5px solid #333 ;
     border-right: 5px solid #333 ;
     border-bottom: 15px solid #23a023;
-    margin: 200px auto;
+    margin: 80px auto;
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
