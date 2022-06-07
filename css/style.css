@@ -29,6 +29,14 @@ h1 {
     text-shadow: 0.1em 0.1em rgb(0, 0, 0);
 }
 
+.txt {
+    font-family: "super mario";
+    font-size: 25px;
+    color: #23a023;
+    text-align: center;
+    margin-top: 150px;
+}
+
 .game-board {
     width: 90%;
     height: 500px;
@@ -46,6 +54,10 @@ h1 {
     position: absolute;
     bottom: 0;
     width: 80px;
+    right: -80px;
+}
+
+.pipe_animation {
     animation: pipe-animation 2.4s infinite linear;
 }
 
@@ -56,7 +68,7 @@ h1 {
 }
 
 .jump {
-    animation: jump 500ms ease-out;
+    animation: jump 600ms ease-out;
 }
 
 .clouds {

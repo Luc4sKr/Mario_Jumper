@@ -1,5 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const pipe_animation = document.querySelector('.pipe_animation')
+const txt = document.querySelector('.txt')
 
 const jump = () => {
     mario.classList.add('jump');
@@ -9,6 +11,11 @@ const jump = () => {
         mario.classList.remove('jump');
 
     }, 500);
+}
+
+const start_game = () => {
+    pipe.classList.add('pipe_animation');
+    txt.remove();
 }
 
 const loop = setInterval(() => {
@@ -34,5 +41,5 @@ const loop = setInterval(() => {
 
 }, 10);
 
-
 document.addEventListener('keydown', jump);
+document.addEventListener('keydown', start_game)
